@@ -4,8 +4,8 @@ const config = require('./config.json');
 const tool = require('./tool.js');
 const ytdl = require('ytdl-core');
 const ySearch = require("youtube-search");
-const Song = require('./obj/Song.js');
-const MusicPlayer = require('./obj/MusicPlayer.js');
+const Song = require('./Song.js');
+const MusicPlayer = require('./MusicPlayer.js');
 const rp = require('request-promise');
 
 module.exports.processCommand = processCommand;
